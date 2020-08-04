@@ -49,6 +49,7 @@ function ProductDetail() {
     const classes = useStyles()
 
     const { slug } = useParams()
+    console.log(slug)
     const shoe = data.shoes[slug]
 
     if (!shoe) {
